@@ -1,0 +1,19 @@
+app-custom-button{
+    --app-button-background-color:maroon;
+    --app-button-text-color:white;
+    --app-button-width:100px;
+    --app-button-height:60px;
+    --app-button-font-size:30px
+}
+
+app-custom-button:hover{
+    --app-button-background-color:red;
+    --app-button-text-color:white;
+    --app-button-width:100px;
+    --app-button-height:60px;
+    --app-button-font-size:30px
+}
+app-custom-button:active{
+   
+    --app-button-scale:0.95;
+}

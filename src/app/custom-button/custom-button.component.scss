@@ -1,0 +1,16 @@
+:host{
+    --app-button-background-color:dodgerblue;
+    --app-button-text-color:yellow;
+    --app-button-width:150px;
+    --app-button-height:70px;
+    --app-button-font-size:40px;
+    --app-button-scale: 1 ;
+}
+button{
+    background-color: var(--app-button-background-color);
+    color: var(--app-button-text-color);
+    width: var(--app-button-width);
+    height: var(--app-button-height);
+    font-size: var(--app-button-font-size);
+    transform: scale(var(--app-button-scale));
+}
