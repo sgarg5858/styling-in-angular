@@ -1,0 +1,18 @@
+.min-content{
+    width: min-content;
+    border: 5px dotted dodgerblue;
+    padding: 20px;
+    span{
+       color: red;
+       font-size: 20px; 
+    }
+}
+.max-content{
+    width: max-content;
+    border: 5px dotted dodgerblue;
+    padding: 20px;
+    span{
+        color: red;
+        font-size: 20px; 
+     }
+}

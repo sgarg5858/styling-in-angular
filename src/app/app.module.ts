@@ -8,6 +8,9 @@ import { TestComponent } from './ng-deep-in-action/test/test.component';
 import { ButtonComponent } from './ng-deep-in-action/button/button.component';
 import { CustomButtonComponent } from './custom-button/custom-button.component';
 import { ValueProcessingComponent } from './value-processing/value-processing.component';
+import { FlexboxComponent } from './flexbox/flexbox.component';
+import { GridComponent } from './grid/grid.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ValueProcessingComponent } from './value-processing/value-processing.co
     TestComponent,
     ButtonComponent,
     CustomButtonComponent,
-    ValueProcessingComponent
+    ValueProcessingComponent,
+    FlexboxComponent,
+    GridComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
