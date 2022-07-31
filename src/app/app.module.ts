@@ -7,6 +7,7 @@ import { NgDeepInActionComponent } from './ng-deep-in-action/ng-deep-in-action.c
 import { TestComponent } from './ng-deep-in-action/test/test.component';
 import { ButtonComponent } from './ng-deep-in-action/button/button.component';
 import { CustomButtonComponent } from './custom-button/custom-button.component';
+import { ValueProcessingComponent } from './value-processing/value-processing.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CustomButtonComponent } from './custom-button/custom-button.component';
     NgDeepInActionComponent,
     TestComponent,
     ButtonComponent,
-    CustomButtonComponent
+    CustomButtonComponent,
+    ValueProcessingComponent
   ],
   imports: [
     BrowserModule,
