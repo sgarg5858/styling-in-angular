@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    margin: 5px;
+}
 .min-content{
     width: min-content;
     border: 5px dotted dodgerblue;
@@ -13,6 +19,23 @@
     padding: 20px;
     span{
         color: red;
+        font-size: 20px; 
+     }
+}
+
+.parent{
+    margin: 20px;
+    width: 250px;
+    border: 8px dotted green;
+    padding: 2px;
+}
+
+.fit-content{
+    width: fit-content;
+    border: 5px dotted dodgerblue;
+    padding: 20px;
+    span{
+        color: green;
         font-size: 20px; 
      }
 }
