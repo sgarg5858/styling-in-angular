@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    width: 98vw;
+    border: 4px dotted pink;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    border: 4px dotted green;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    .item{
+        min-width: 50px;
+        
+        border: 1px solid red;
+        margin: 2px;
+        padding: 2px;
+    }
+    .last{
+        margin-left: auto;
+    }
+}
